@@ -1,0 +1,97 @@
+body {
+	font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.col-img{
+	background: url("../images/portada-2.jpg") center center no-repeat;
+	background-size: cover;
+}
+
+.bg-primary{
+	background: #98CFC9!important;
+}
+
+.btn-secondary{
+	background: #FEC61B!important;
+	color: #0D3D48!important;
+	border: none;
+}
+
+.pb-6{
+	padding-bottom: 100px;
+}
+
+.showcase p.lead {
+	font-size: 23px;
+}
+
+.btn-success {
+	background-color: #FBBD13;
+	border: 1px solid #FEE8AD;
+}
+
+.btn-success:active {
+	background-color: #FBBD13!important;
+	border: 1px solid #FEE8AD!important;
+	color: #FFF!important;
+}
+
+.btn-success:hover {
+	background-color: #FEE8AD;
+	border: 1px solid #FBBD13;
+	color: #00718F;
+	transition: all 0.5s ease;
+}
+
+
+.btn-danger {
+	background-color: #00718F;
+	border: 1px solid #B3D5DE;
+}
+
+.btn-danger:active {
+	background-color: #00718F!important;
+	border: 1px solid #B3D5DE!important;
+	color: #FFF!important;
+}
+
+.btn-danger:hover {
+	background-color: #B3D5DE;
+	border: 1px solid #00718F;
+	color: #00718F;
+	transition: all 0.5s ease;
+}
+
+	button.botdis:hover {
+	background-color: #FDD771!important;
+	transition: all 0.5s ease;
+
+}
+
+div.bg-modal {
+	background-color: #F5FAFA!important;
+}
+
+h5.text-modal {
+	color: #00718F;
+}
+
+
+
+
+
+
+@media (max-width: 768px){
+
+.pb-6{
+	padding-bottom: 90px;
+}
+
+.botdis{
+	margin-top: 10px;
+
+}
+
+
+
+}

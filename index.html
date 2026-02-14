@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HRMD-UI/UX</title>
+    <!-- Enlace Bootstrap css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">  
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- Favicon -->
+	<link rel="icon" href="images/favicon.png" type="image/png">
+	<!-- Tipografia -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  </head>
+	<body>
+
+	
+	<div class="showcase">
+		<div class="d-flex vh-100">
+			<div class="col-6 col-img d-none d-md-block"></div>
+			<div class="col-12 col-md-6 bg-primary text-light p-5">
+				<img src="images/logo.png" alt="" class="pb-6">
+				<h1 class="display-3">Soy <span class="fw-bold display-2 fst-italic">Paula</span> <br>diseñadora <strong>UI/UX</strong></h1>
+				<p class="lead mt-3">
+				Diseño de interfaces visuales centradas en el usuario, combinando estética, funcionalidad y coherencia en cada interacción.</p><br>
+
+				<div class="col-lg-12 pt-4">
+				<button 
+				class="btn btn-secondary text-light px-5 py-2 botdis"
+				data-bs-toggle="modal"
+				data-bs-target="#mi-modal-1"
+				>
+				<strong>Diseñemos tu proyecto</strong>
+				</button>
+
+				<div 
+				class="modal fade"
+				id="mi-modal-1"
+				tabindex="-1"
+				aria-hidden="true"
+				aria-labelledby="label-modal-1"
+				>
+
+				<!-- Caja de diálogo -->
+				<div class="modal-dialog">
+					<!-- Contenido de la caja -->
+					<div class="modal-content bg-modal">
+						<!-- Encabezado de la caja -->
+						<div class="modal-header">
+							<h5 class="modal-title text-modal ps-3">Comencemos el contacto</h5>
+							<buton type="button" data-bs-dismiss="modal" class="btn-close" aria-label="Cerrar"></buton>
+						</div>
+						<!-- Cuerpo de la caja -->
+						<div class="modal-body">
+							<form action="" class="px-3">
+									<div class="mb-3 w-100">
+										<input type="text" placeholder="Nombre" class="form-control bg-light ">
+									</div>
+									<div class="mb-3 w-100">
+										<input type="text" placeholder="Apellido" class="form-control bg-light ">
+									</div>
+									<div class="mb-3 w-100">
+										<input type="email" placeholder="Email" class="form-control bg-light ">
+									</div>
+
+									<div class="modal-footer">
+									<!-- data-bs-dismiss="modal" // Para cerrar la ventana emergente -->
+									<buton type="button" data-bs-dismiss="modal" class="btn btn-danger">Cancelar</buton>
+									<buton type="button" class="btn btn-success">Enviar</buton>
+									</div>
+									</form>
+							</div>
+						</div>
+					</div>
+					</div>
+					</div>			
+				</div>
+			</div>
+		</div>
+	    <!-- Enlace Bootstrap js -->
+   		 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+		<link href='js/bootstrap.bundle.min.js' rel='stylesheet'>
+	</body>	
+</html>

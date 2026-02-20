@@ -89,9 +89,10 @@ h5.text-modal {
 
 .botdis{
 	margin-top: 10px;
-
 }
 
-
+.showcase img{
+	padding-bottom: 40px!important;
+}
 
 }
